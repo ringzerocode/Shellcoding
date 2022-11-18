@@ -86,9 +86,9 @@ sudo chmod +x hello2
 
 
 
---------
-HELLO.C
---------
+-----------
+5) HELLO.C:
+-----------
 
 It will execute shellcode in memory from c program.
 The string obtained from the shell coder can't be directly executed: hex bytes must be escaped with \x.
@@ -108,7 +108,11 @@ OUTPUT:
 ![Selezione_005](https://user-images.githubusercontent.com/118491337/202802354-85bcc15e-29ed-4afc-85d0-04fc4b9798e2.png)
 
 
+-----------
+6) SHELL.S:
+-----------
 
+It uses assembly to spawn a shell. This assembly file can be used to generate a shellcode that spawn a simple shell into the target system.
 
 
 
