@@ -84,3 +84,33 @@ sudo chmod +x hello2
 ./hello2
 
 
+
+
+--------
+HELLO.C
+--------
+
+It will execute shellcode in memory from c program.
+The string obtained from the shell coder can't be directly executed: hex bytes must be escaped with \x.
+
+USAGE:
+
+Compile - Bypass memory protection with gcc:
+
+gcc hello.c -o helloworld -fno-stack-protector -z execstack -Wl,--omagic -g --static
+
+Execute:
+
+./helloworld
+
+OUTPUT:
+
+![Selezione_005](https://user-images.githubusercontent.com/118491337/202802354-85bcc15e-29ed-4afc-85d0-04fc4b9798e2.png)
+
+
+
+
+
+
+
+
