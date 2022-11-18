@@ -33,7 +33,7 @@ An optimized version of assembly x86-64 hello world that can be executed as shel
 
 Once you have the executable you can transforms it in its shellcode form.
 It will generate a string of shellcode that can be used as payload.
-N.B.: hello.s was adapted to be executed as shellcode, null characters are already removed. 
+N.B.: hello.s was adapted to be executed as shellcode, null characters, variables and direct references to memory address have been removed. 
 
 USAGE : 
 
