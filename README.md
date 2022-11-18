@@ -20,7 +20,8 @@ python3 -m pip install --upgrade pwntools
 1) GENERATE EXE FROM ASSEMBLY HELLOWORLD:
 -----------------------------------------------
 
-An optimized version of assembly x86-64 hello world that can be executed as shellcode.
+hello.s is an optimized version of assembly x86-64 hello world that can be executed as shellcode.
+assembler.sh is a bash script to make an executable file out of an assembly .s file. 
 
 ./assembler.sh hello.s
 
@@ -33,7 +34,7 @@ An optimized version of assembly x86-64 hello world that can be executed as shel
 
 Once you have the executable you can transforms it in its shellcode form.
 It will generate a string of shellcode that can be used as payload.
-N.B.: hello.s was adapted to be executed as shellcode, null characters, variables and direct references to memory address have been removed. 
+N.B.: hello.s was adapted to be executed as shellcode, null characters, variables and direct references to memory addresses have been removed. 
 
 USAGE : 
 
