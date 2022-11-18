@@ -1,10 +1,10 @@
 # Shellcoding
-Some useful shellcoding utilities.
+Some useful shellcode utilities.
 
 
 
 -------------------------
-INSTALL PWNTOOLS (Linux):
+0) INSTALL PWNTOOLS (Linux):
 -------------------------
 
 sudo apt-get update
